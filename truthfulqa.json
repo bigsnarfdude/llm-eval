@@ -1,0 +1,24 @@
+{
+  "results": {
+    "truthfulqa_mc": {
+      "mc1": 0.3023255813953488,
+      "mc1_stderr": 0.016077509266133026,
+      "mc2": 0.46561932441265147,
+      "mc2_stderr": 0.014048947016807672
+    }
+  },
+  "versions": {
+    "truthfulqa_mc": 1
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=vincentoh/llama3-alpaca-dpo-instruct,trust_remote_code=yes,dtype=bfloat16",
+    "num_fewshot": 0,
+    "batch_size": "auto",
+    "device": "cuda:0",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
