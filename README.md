@@ -2,6 +2,7 @@
 
 ```
 
+bash eval.sh
 python main.py
 
 |                                          Model                                          |AGIEval|GPT4All|TruthfulQA|Bigbench|Average|
