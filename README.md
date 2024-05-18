@@ -2,6 +2,7 @@
 
 ```
 
+git clone https://github.com/bigsnarfdude/llm-eval.git
 bash eval.sh
 python main.py
 
